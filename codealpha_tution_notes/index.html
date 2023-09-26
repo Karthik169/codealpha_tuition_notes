@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuition Notes Web Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tuition Notes Web Application</h1>
+    </header>
+    <main>
+        <div class="book-form">
+            <input type="text" id="book-name" placeholder="Enter book name">
+            <button id="create-book">Create Book</button>
+        </div>
+        <div class="notes-form">
+            <select id="book-list">
+                <!-- Books will be dynamically added here -->
+            </select>
+            <input type="text" id="note" placeholder="Enter your note">
+            <button id="add-note">Add Note</button>
+        </div>
+        <div class="notes-list">
+            <ul id="notes"></ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
